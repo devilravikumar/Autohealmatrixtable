@@ -1,0 +1,9 @@
+,pred_db_connection_timeout,pred_auth_token_expired,pred_downstream_unavailable,pred_rate_limit_exceeded,pred_memory_exhaustion,pred_config_missing,pred_schema_mismatch,pred_bad_request_validation
+true_db_connection_timeout,524,11,0,2,2,0,8,48
+true_auth_token_expired,1,514,0,6,0,12,4,110
+true_downstream_unavailable,46,16,408,0,0,0,120,31
+true_rate_limit_exceeded,12,84,0,428,8,0,38,47
+true_memory_exhaustion,76,14,0,0,484,0,32,39
+true_config_missing,12,22,0,0,0,421,2,172
+true_schema_mismatch,14,49,3,0,0,1,460,120
+true_bad_request_validation,1,60,0,0,0,14,4,520

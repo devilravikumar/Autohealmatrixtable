@@ -1,0 +1,317 @@
+{
+  "42": {
+    "rule_based": {
+      "root_cause_accuracy": 0.6442,
+      "diagnostic_precision_macro": 0.8324635225349504,
+      "recall_macro": 0.6455193064442628,
+      "f1_macro": 0.6786355260687265,
+      "remediation_success_over_all_errors": 0.694,
+      "remediation_success_over_applied_actions": 0.694,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2279,
+      "false_diagnoses": 1779,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.009678200000000001
+    },
+    "rag": {
+      "root_cause_accuracy": 0.6168,
+      "diagnostic_precision_macro": 0.6906502529645396,
+      "recall_macro": 0.616569845443366,
+      "f1_macro": 0.6302810326542445,
+      "remediation_success_over_all_errors": 0.6746,
+      "remediation_success_over_applied_actions": 0.6746,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2376,
+      "false_diagnoses": 1916,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.4532656
+    },
+    "agentic_rag": {
+      "root_cause_accuracy": 0.6558,
+      "diagnostic_precision_macro": 0.7425300900250382,
+      "recall_macro": 0.6568106994953165,
+      "f1_macro": 0.6670901720760223,
+      "remediation_success_over_all_errors": 0.7072,
+      "remediation_success_over_applied_actions": 0.7072,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2213,
+      "false_diagnoses": 1721,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.6301896
+    },
+    "autoheal_rag": {
+      "root_cause_accuracy": 0.7518,
+      "diagnostic_precision_macro": 0.8115282271551918,
+      "recall_macro": 0.753072908691598,
+      "f1_macro": 0.7619167929141913,
+      "remediation_success_over_all_errors": 0.7742,
+      "remediation_success_over_applied_actions": 0.8108165429480382,
+      "actions_applied": 4715,
+      "actions_withheld_by_gate": 285,
+      "unnecessary_remediations": 1593,
+      "false_diagnoses": 1241,
+      "reflection_rate": 0.5368,
+      "mean_diag_ms": 0.6485373999999999
+    },
+    "derived": {
+      "accuracy_gain_over_rag_pts": 13.5,
+      "unnecessary_remediation_reduction_vs_rag_pct": 32.95454545454546,
+      "false_diagnosis_reduction_vs_rag_pct": 35.22964509394571
+    }
+  },
+  "1": {
+    "rule_based": {
+      "root_cause_accuracy": 0.641,
+      "diagnostic_precision_macro": 0.8279064157122508,
+      "recall_macro": 0.638174433253766,
+      "f1_macro": 0.672493963457933,
+      "remediation_success_over_all_errors": 0.6966,
+      "remediation_success_over_applied_actions": 0.6966,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2291,
+      "false_diagnoses": 1795,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.0091222
+    },
+    "rag": {
+      "root_cause_accuracy": 0.6112,
+      "diagnostic_precision_macro": 0.7781193905029928,
+      "recall_macro": 0.6143435222287094,
+      "f1_macro": 0.6408184521964659,
+      "remediation_success_over_all_errors": 0.6704,
+      "remediation_success_over_applied_actions": 0.6704,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2422,
+      "false_diagnoses": 1944,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.4329896000000001
+    },
+    "agentic_rag": {
+      "root_cause_accuracy": 0.6418,
+      "diagnostic_precision_macro": 0.8337407910424794,
+      "recall_macro": 0.6441877555206748,
+      "f1_macro": 0.676407640785629,
+      "remediation_success_over_all_errors": 0.6972,
+      "remediation_success_over_applied_actions": 0.6972,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2288,
+      "false_diagnoses": 1791,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.5379174
+    },
+    "autoheal_rag": {
+      "root_cause_accuracy": 0.7344,
+      "diagnostic_precision_macro": 0.8371188876255794,
+      "recall_macro": 0.7351983394450137,
+      "f1_macro": 0.7496853654333737,
+      "remediation_success_over_all_errors": 0.769,
+      "remediation_success_over_applied_actions": 0.7866419294990723,
+      "actions_applied": 4851,
+      "actions_withheld_by_gate": 149,
+      "unnecessary_remediations": 1780,
+      "false_diagnoses": 1328,
+      "reflection_rate": 0.5278,
+      "mean_diag_ms": 0.5501585999999999
+    },
+    "derived": {
+      "accuracy_gain_over_rag_pts": 12.32000000000001,
+      "unnecessary_remediation_reduction_vs_rag_pct": 26.50701899256812,
+      "false_diagnosis_reduction_vs_rag_pct": 31.68724279835391
+    }
+  },
+  "2": {
+    "rule_based": {
+      "root_cause_accuracy": 0.6386,
+      "diagnostic_precision_macro": 0.8273536367223983,
+      "recall_macro": 0.6393139839877389,
+      "f1_macro": 0.6741380812257142,
+      "remediation_success_over_all_errors": 0.6904,
+      "remediation_success_over_applied_actions": 0.6904,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2238,
+      "false_diagnoses": 1807,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.0097006
+    },
+    "rag": {
+      "root_cause_accuracy": 0.6156,
+      "diagnostic_precision_macro": 0.7876617381172286,
+      "recall_macro": 0.6145582079791385,
+      "f1_macro": 0.6432635426266191,
+      "remediation_success_over_all_errors": 0.6674,
+      "remediation_success_over_applied_actions": 0.6674,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2353,
+      "false_diagnoses": 1922,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.46632699999999994
+    },
+    "agentic_rag": {
+      "root_cause_accuracy": 0.6444,
+      "diagnostic_precision_macro": 0.8334488974938926,
+      "recall_macro": 0.6436721574333627,
+      "f1_macro": 0.6745470436758321,
+      "remediation_success_over_all_errors": 0.6928,
+      "remediation_success_over_applied_actions": 0.6928,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2226,
+      "false_diagnoses": 1778,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.5755601999999999
+    },
+    "autoheal_rag": {
+      "root_cause_accuracy": 0.7208,
+      "diagnostic_precision_macro": 0.8462533491439067,
+      "recall_macro": 0.720383097274129,
+      "f1_macro": 0.7456453331448478,
+      "remediation_success_over_all_errors": 0.7498,
+      "remediation_success_over_applied_actions": 0.7593984962406015,
+      "actions_applied": 4921,
+      "actions_withheld_by_gate": 79,
+      "unnecessary_remediations": 1862,
+      "false_diagnoses": 1396,
+      "reflection_rate": 0.3678,
+      "mean_diag_ms": 0.583417
+    },
+    "derived": {
+      "accuracy_gain_over_rag_pts": 10.519999999999996,
+      "unnecessary_remediation_reduction_vs_rag_pct": 20.86697832554186,
+      "false_diagnosis_reduction_vs_rag_pct": 27.36732570239334
+    }
+  },
+  "3": {
+    "rule_based": {
+      "root_cause_accuracy": 0.656,
+      "diagnostic_precision_macro": 0.8348236882843234,
+      "recall_macro": 0.6544616978699398,
+      "f1_macro": 0.6880459014667106,
+      "remediation_success_over_all_errors": 0.7064,
+      "remediation_success_over_applied_actions": 0.7064,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2231,
+      "false_diagnoses": 1720,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.009664800000000001
+    },
+    "rag": {
+      "root_cause_accuracy": 0.6178,
+      "diagnostic_precision_macro": 0.7792073167962225,
+      "recall_macro": 0.6164641772736492,
+      "f1_macro": 0.6463807195868381,
+      "remediation_success_over_all_errors": 0.6754,
+      "remediation_success_over_applied_actions": 0.6754,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2386,
+      "false_diagnoses": 1911,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.45866939999999995
+    },
+    "agentic_rag": {
+      "root_cause_accuracy": 0.6744,
+      "diagnostic_precision_macro": 0.7869255226996245,
+      "recall_macro": 0.6735154151789783,
+      "f1_macro": 0.6964900300811273,
+      "remediation_success_over_all_errors": 0.7224,
+      "remediation_success_over_applied_actions": 0.7224,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2151,
+      "false_diagnoses": 1628,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.5838707999999999
+    },
+    "autoheal_rag": {
+      "root_cause_accuracy": 0.7692,
+      "diagnostic_precision_macro": 0.8489147351939921,
+      "recall_macro": 0.7700832346101718,
+      "f1_macro": 0.783512062522778,
+      "remediation_success_over_all_errors": 0.795,
+      "remediation_success_over_applied_actions": 0.8151746950589208,
+      "actions_applied": 4837,
+      "actions_withheld_by_gate": 163,
+      "unnecessary_remediations": 1625,
+      "false_diagnoses": 1154,
+      "reflection_rate": 0.5678,
+      "mean_diag_ms": 0.606874
+    },
+    "derived": {
+      "accuracy_gain_over_rag_pts": 15.139999999999997,
+      "unnecessary_remediation_reduction_vs_rag_pct": 31.894383906119028,
+      "false_diagnosis_reduction_vs_rag_pct": 39.61276818419675
+    }
+  },
+  "4": {
+    "rule_based": {
+      "root_cause_accuracy": 0.6498,
+      "diagnostic_precision_macro": 0.83692551259656,
+      "recall_macro": 0.65146202969368,
+      "f1_macro": 0.6861915704965509,
+      "remediation_success_over_all_errors": 0.7038,
+      "remediation_success_over_applied_actions": 0.7038,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2231,
+      "false_diagnoses": 1751,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.0104528
+    },
+    "rag": {
+      "root_cause_accuracy": 0.6056,
+      "diagnostic_precision_macro": 0.732581368257812,
+      "recall_macro": 0.6053884475547655,
+      "f1_macro": 0.6245755030883702,
+      "remediation_success_over_all_errors": 0.6664,
+      "remediation_success_over_applied_actions": 0.6664,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2418,
+      "false_diagnoses": 1972,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.49830599999999997
+    },
+    "agentic_rag": {
+      "root_cause_accuracy": 0.6498,
+      "diagnostic_precision_macro": 0.787059651553597,
+      "recall_macro": 0.6499668721055237,
+      "f1_macro": 0.6716012429590432,
+      "remediation_success_over_all_errors": 0.7026,
+      "remediation_success_over_applied_actions": 0.7026,
+      "actions_applied": 5000,
+      "actions_withheld_by_gate": 0,
+      "unnecessary_remediations": 2237,
+      "false_diagnoses": 1751,
+      "reflection_rate": 0.0,
+      "mean_diag_ms": 0.7233042
+    },
+    "autoheal_rag": {
+      "root_cause_accuracy": 0.7526,
+      "diagnostic_precision_macro": 0.817310939332998,
+      "recall_macro": 0.7519028584684861,
+      "f1_macro": 0.7621180259349802,
+      "remediation_success_over_all_errors": 0.7748,
+      "remediation_success_over_applied_actions": 0.8103484688489968,
+      "actions_applied": 4735,
+      "actions_withheld_by_gate": 265,
+      "unnecessary_remediations": 1611,
+      "false_diagnoses": 1237,
+      "reflection_rate": 0.5476,
+      "mean_diag_ms": 0.746325
+    },
+    "derived": {
+      "accuracy_gain_over_rag_pts": 14.700000000000003,
+      "unnecessary_remediation_reduction_vs_rag_pct": 33.37468982630273,
+      "false_diagnosis_reduction_vs_rag_pct": 37.27180527383367
+    }
+  }
+}
